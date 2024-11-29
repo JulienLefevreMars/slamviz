@@ -27,7 +27,7 @@ import slam.spangy as spgy
 ###############################################################################
 # LOAD MESH
 mesh = sio.load_mesh(
-    '../examples/data/example_mesh.gii')
+    'examples/data/example_mesh.gii')
 vertices = mesh.vertices
 num_vertices = len(vertices)
 print('{} vertices'.format(num_vertices))
